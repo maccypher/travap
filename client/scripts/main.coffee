@@ -1,4 +1,4 @@
-window.document.addEventListener "touchstart", ->, true
+# window.document.addEventListener "touchstart", ->, true
 
 angular = require 'angular'
 controllers = require "./controller"

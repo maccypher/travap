@@ -1,7 +1,8 @@
 leaflet = require 'leaflet'
 
 class Map
-  TILES_WATERCOLOR: "http://a.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg"
+  # TILES_WATERCOLOR: "http://a.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg"
+  TILES_WATERCOLOR: "http://a.tile.stamen.com/toner/{z}/{x}/{y}.jpg"
   BASE_TILE_OPTIONS:
     minZoom: 3
     maxZoom: 12
